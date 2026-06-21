@@ -187,7 +187,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Eastern and southern areas show high relative relief index in red/orange indicating large elevation differences, while western and northern areas show low index in blue indicating gentle, uniform terrain.';
+                this._div.innerHTML = 'Blue areas have high Relative Relief meaning large elevation difference between highest and lowest points with rugged terrain, while red areas have low Relative Relief meaning small elevation difference with flat to gently rolling terrain.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
